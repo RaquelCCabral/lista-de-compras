@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras</title>
+    <script src = 'script.js'></script>
+    <link rel = 'stylesheet' href = 'style.css'>
+</head>
+<body>
+    <div class = 'container'>
+        <div class = 'inputs'>
+            <div class = 'produtos'>
+                <label>Produto</label>
+                <input type = 'text' id = 'produto'>
+            </div>
+            <div class = 'preços'>
+                <label>R$</label>
+                <input type = 'text' id = 'preço'>
+            </div>
+            <div class = 'qtds'>
+                <label>Qtd</label>
+                <input type = 'number' id = 'qtd'>
+            </div>
+            <button class = 'submit' onclick = 'addLinha();'>+</button>
+        </div><br>
+        <table id = 'tabela'>
+            <tr>
+                <th>Produto</th>
+                <th>Preço</th>
+                <th>Quantidade</th>
+                <th>Excluir</th>
+            </tr>
+        </table><br>
+        <div class = 'total'>
+            <label>Total:</label>
+            <span id = 'resultado'>R$ 0.00</span>
+        </div>
+    </div>
+</body>
+</html>

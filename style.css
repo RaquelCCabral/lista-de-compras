@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(224, 249, 207);
+}
+
+.inputs, .total{
+    display: flex;
+    justify-content: center;
+    margin: 2% 2% 2% 2%;
+    width: 50%;
+    height: 50px;
+    align-items: center;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(1, 44, 12);
+    color: aliceblue;
+    font-style: bolder;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#tabela{
+    margin: auto;
+    border: 1px solid black; 
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th{
+    border: 1px solid black;
+    color: white;
+    background-color: green; 
+    width: 25%;
+    text-align: center;
+}
+
+td{
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgb(175, 248, 175); 
+    width: 25%;
+}
+
+#produto{
+    width: 50%;
+    text-align: center;
+}
+
+#preço{
+    width: 20%;
+    text-align: center;
+}
+
+#qtd{
+    width: 15%;
+    text-align: center;
+}
+
+button{
+    border-radius: 50px;
+}
+
+.excluir{
+    color: red;
+    border-color: red;
+}
+
+.submit{
+    font-size: large;
+    background-color: white;
+}
